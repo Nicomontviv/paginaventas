@@ -1,0 +1,69 @@
+/*-------------------------Seccion video---------------------------*/
+
+.seccion-video{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    height: 280px;
+}
+.imgfondo{
+    overflow: hidden;
+    scroll-behavior: auto;
+    overflow-y: auto;
+    background-image: url(imagenfondo1.png);
+    animation: movimiento 200s linear infinite alternate;
+}
+@keyframes movimiento{
+    from{
+        background-position: 0;
+    }to{
+        background-position: 100%;
+    }
+}
+.seccion-video__h1{
+    display: inline-block;
+    margin: auto;
+    color: #fff;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    font-size: 5vw;
+    text-align: center;
+    position: static;
+    text-shadow: 2px 2px 2px rgb(2, 34, 216);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.seccion-video__h2{
+     display: inline-block;
+     color: #fff;
+     padding-left: 4%;
+     padding-right: 4%;
+     padding-top: 3%;
+     padding-bottom: 2% ;
+     font-size: 5vw;
+     text-align: center;
+     position: static;
+     text-shadow: 2px 2px 2px rgb(2, 34, 216);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.seccion-video__videobox{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+}
+.seccion-video__container{
+    margin: 0px auto 0;
+    padding-left: 0;
+    border: 2px solid rgb(255, 238, 2);
+    height: 54vw;
+    max-height: 720px;
+    width: 95vw;
+    max-width: 1200px;
+    display: inline-block;
+    position: relative;
+}
+.seccion-video__video{
+    width: 100%;
+    height: 100%;
+}
