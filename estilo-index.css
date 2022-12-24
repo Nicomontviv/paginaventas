@@ -67,3 +67,28 @@
     width: 100%;
     height: 100%;
 }
+/*--------------Seccion del middle label---------------------------*/
+.middle-label{
+    display: inline-block;
+    background-color: #000;
+    width: 100%;
+    padding: 0%;
+    border-radius: 2%;
+    filter: opacity(90%);
+}
+.middle-label__h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    padding-left: 25%;
+    padding-top: 3%;
+    margin: auto;
+    font-size: 5vw;
+}
+.middle-label__h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    padding: 10%;
+    margin: auto;
+    font-size: 5vw;
+    text-align: center;
+}
