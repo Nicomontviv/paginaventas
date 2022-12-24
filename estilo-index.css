@@ -92,3 +92,13 @@
     font-size: 5vw;
     text-align: center;
 }
+/*-----------Seccion contador limitante----------------------*/
+.countDown-box{
+    background-color: rgba(64, 16, 197, 0.589);
+}
+.countDown-box__countDown{
+    display: inline-block;
+    color: #fff;
+    font-size: 15vw;
+    padding-left: 25%;
+}
