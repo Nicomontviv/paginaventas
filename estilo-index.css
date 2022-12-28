@@ -182,3 +182,39 @@
     padding-right: 15px;
     padding-bottom: 20px;
 }
+/*--------------MODULOS Y CLASES--------------------*/
+.detalles-boxmodulos{
+    background-color: rgba(31,28,28,0.74);
+    border: 2px solid rgb(0, 118, 122);
+    display: inline-block;
+    width: 90vw;
+    height: 530vw;
+    max-width: 680px;
+    max-height: 3700px;
+    padding-bottom: 7%;
+}
+.h4-boxmodulos{
+    color: rgb(252, 240, 0);
+    text-shadow: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vw;
+    padding: 5%;
+}
+.h6-modulos{
+   color: #fff;
+   text-shadow: 5px #000;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 5vw;
+   padding-bottom: 20px;
+   padding-right: 8px;
+   padding-left: 15px;
+   text-shadow: 2px 2px 2px rgb(2, 34, 216);  
+}
+.detalles-boxmodulos__modulo{
+    color: #fff;
+    text-shadow: 2px 2px 2px rgb(2, 34, 216);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vw;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
