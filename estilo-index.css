@@ -506,7 +506,7 @@
 .detalles-boxdescripcion__descripcion{
     font-size: 35px;
 }
-.detalles-boxobjetos{
+.detalles-boxobjetivos{
     max-height: 1080px;
     max-width: 1080px;
     margin-top: 40px;
@@ -524,7 +524,7 @@
     max-width: 1040px;
     margin-top: 40px;
 }
-.h4-boxmodulos{
+.h4-modulos{
     font-size: 35px;
 }
 .h6-modulos{
