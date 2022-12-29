@@ -218,3 +218,124 @@
     padding-bottom: 20px;
     padding-right: 15px;
 }
+/*---------------BOTON PARA INGRESAR Y GARANTIA----------------------*/
+.ingresar-garantia{
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 5%;
+}
+.ingresar{
+    display: block;
+    width: 40vw;
+    max-width: 720px;
+    margin:left;
+    float: left;
+}
+.ingresar-h4{
+    font-size: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px rgb(2, 34, 216);
+    padding: 3%;
+    color: #fff;
+    margin-left: 10%;
+}
+.ingresar-button{
+    background-color: gold;
+    height: 10vw;
+    width: 35vw;
+    margin-left: 6%;
+}
+.ingresar-button:hover{
+    background-color: rgb(0, 159, 8);
+}
+.ingresar-button__enlace{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 3px 2px  rgb(255, 255, 255);
+    font-size: 4vw;
+    text-decoration: none;
+}
+.garantia{
+    display: block;
+    width: 35vw;
+    max-width: 720px;
+    float: right;
+}
+.garantia-h4{
+    font-size: 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 2px rgb(2, 34, 216);
+    padding: 3%;
+    color: #fff;
+}
+/*----------DATOS Y REDES------------------*/
+.data-redes{
+    margin-top: 10%;
+}
+.data{
+    flex-wrap: nowrap;
+    display: inline-block;
+    width: 90vw;
+    height: 175vw;
+    max-width: 780px;
+    max-height: 2500px;
+    background-color: rgba(0, 0, 0, 0.492);
+    border: 2px solid rgb(0, 118, 122);
+    margin-top: 500px;
+    margin-left: 3%;
+    overflow-y: auto;
+}
+.data-h5{
+    font-size: 5vw;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgb(2, 34, 216) ;
+    margin-left: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.data-img__container{
+    width: 200px;
+    height:200px;
+    margin-left: 35%;
+}
+.data-img__imagen{
+    width: 200px;
+    height: 200px;
+    margin: center;
+    border: 2px solid rgb(252, 235, 0);
+    border-radius: 100%;
+}
+.data-p{
+    font-size: 5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-indent: 25px;
+}
+
+/*------------boton whatsapp----------------*/
+.wp{
+    display: block;
+    position: fixed;
+    width: 35vw;
+    height: 5vw;
+    border-radius: 60px;
+    background-color: rgba(0, 0, 0, 0.526);
+    bottom: 30px;
+    right: 50px;
+    padding-top: 2vw;
+}
+.wp-enlace{
+    font-size: 2vw;
+    margin-left: 3vw;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 2px 2px 0 #000;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.wp-img{
+    width:3vw ;
+    height: 3vw;
+    margin-right: 4vw;
+    float: right;
+}
